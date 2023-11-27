@@ -21,6 +21,5 @@ public class VoiceMessageUtil{
     public void getCurrentDate(String test){
         Date today = new Date();
         System.out.println("goodbye, the current date is: "+ today);
-
     }
 }

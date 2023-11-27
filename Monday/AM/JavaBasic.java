@@ -34,8 +34,8 @@ public class JavaBasic{
         String fullName = firstName.concat(lastName);
         System.out.println(fullName);
 
-        // String greeting = String.format("Hi %s, you are %d years old", fullName, age );
-        // System.out.println(greeting);
+        String greeting = String.format("Hi %s, you are %d years old", fullName, age );
+        System.out.println(greeting);
         System.out.printf("Hi %s, you are %d years old \n", fullName, age);
 
 
@@ -47,6 +47,5 @@ public class JavaBasic{
         System.out.println(firstName1 == firstName2); // false
 
         System.out.println(firstName1.equals(firstName2)); // true
-
     }
 }
